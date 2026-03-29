@@ -1,0 +1,6 @@
+services:
+  mcp:
+    build: .
+    container_name: meu-mcp
+    ports:
+      - "3000:3000"
